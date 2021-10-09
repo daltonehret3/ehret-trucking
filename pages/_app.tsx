@@ -1,7 +1,7 @@
-import '../styles/globals.css'
-import Layout from '../src/components/Layout'
+import '../styles/globals.css';
+import Layout from '../src/components/Layout';
+import React, { FC } from 'react';
 import { AppProps } from 'next/dist/shared/lib/router/router';
-import { useEffect } from 'react';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
 
@@ -12,5 +12,6 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
       </Layout>
     </div>
   );
-}
+};
+
 export default MyApp

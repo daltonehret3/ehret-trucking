@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div style={{height: 'fill'}}>
+        <div>
            About Me Page
         </div>
     );

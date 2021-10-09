@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 import Footer from "./Footer";
 import {HeaderComponent} from "./HeaderComponent";
@@ -13,7 +13,7 @@ const StyledDiv = styled.div`
 
 type ILayout = {
     children: any
-}
+};
 
 const Layout = ({children}: ILayout) => {
     return (
