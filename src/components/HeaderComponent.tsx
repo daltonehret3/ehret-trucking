@@ -16,7 +16,7 @@ export const HeaderComponent = () => {
     return (
         <StyledDiv>
             <div style={{justifyContent: 'center', display: 'flex'}}>
-                <H2>Ehret Trucking</H2>
+                <h1>Ehret Trucking</h1>
             </div>
             <NavBar />
         </StyledDiv>

@@ -27,7 +27,7 @@ export const NavBar = () => {
     
     return (
         <StyledDiv>
-            <Link href='/home'>
+            <Link href='/'>
                 <H3>Home</H3>
             </Link>
             <Link href='/about'>
