@@ -4,6 +4,8 @@ module.exports = {
         '**/src/**/*.jsx',
         '**/src/**/*.ts',
         '**/src/**/*.tsx',
+        '**/pages/**/*.ts',
+        '**/pages/**/*.tsx',
         '!**/src/*.js'
     ],
     coverageThreshold: {
