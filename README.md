@@ -1,4 +1,4 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/daltonehret3/personal-website)
+![GitHub repo size](https://img.shields.io/github/repo-size/daltonehret3/ehret-trucking)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
