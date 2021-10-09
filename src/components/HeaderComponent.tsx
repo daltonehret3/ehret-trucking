@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import { H2 } from "../../styles/headerStyles"
+import { COMPANY_NAME } from "../constants/companyName";
 import {NavBar} from "./NavBar";
 
 const StyledDiv = styled.div`
@@ -16,7 +17,7 @@ export const HeaderComponent = () => {
     return (
         <StyledDiv>
             <div style={{justifyContent: 'center', display: 'flex'}}>
-                <h1>Ehret Trucking</h1>
+                <h1>{COMPANY_NAME}</h1>
             </div>
             <NavBar />
         </StyledDiv>
