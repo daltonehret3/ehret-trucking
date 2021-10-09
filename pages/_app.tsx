@@ -1,7 +1,16 @@
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import Layout from '../src/components/Layout'
+import { AppProps } from 'next/dist/shared/lib/router/router';
+import { useEffect } from 'react';
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+const MyApp = ({ Component, pageProps }: AppProps) => {
+
+  return (
+    <div style={{minHeight: '100vh', display: 'flex'}}>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </div>
+  );
 }
 export default MyApp
