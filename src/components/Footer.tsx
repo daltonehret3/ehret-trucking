@@ -6,6 +6,8 @@ const StyledDiv = styled.div`
     margin: 0;
     display: flex;
     justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
 `;
 
 const Footer = () => {
@@ -21,8 +23,8 @@ const Footer = () => {
             </div>
             <div>
                 <h3>Contact</h3>
-                <p>Cell: (641) 226-7708</p>
-                <p>Email: dillon@ehretTrucking.com</p>
+                <p><strong>Cell:</strong> (641) 226-7708</p>
+                <p><strong>Email:</strong> dillon@ehretTrucking.com</p>
             </div>
         </StyledDiv>
     );
