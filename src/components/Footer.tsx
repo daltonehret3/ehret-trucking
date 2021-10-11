@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             <div>
                 <h3>Contact</h3>
-                <p><strong>Cell:</strong> (641) 226-7708</p>
+                <p data-testid='contact-info'><strong>Cell:</strong> (641) 226-7708</p>
                 <p><strong>Email:</strong> dillon@ehretTrucking.com</p>
             </div>
         </StyledDiv>
