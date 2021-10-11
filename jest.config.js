@@ -6,7 +6,8 @@ module.exports = {
         '**/src/**/*.tsx',
         '**/pages/**/*.ts',
         '**/pages/**/*.tsx',
-        '!**/src/*.js'
+        '!**/src/*.js',
+        '!**/constants/**'
     ],
     coverageThreshold: {
         global: {

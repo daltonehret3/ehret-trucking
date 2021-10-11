@@ -1,1 +1,1 @@
-export const COMPANY_NAME = 'Ehret Trucking Company'
+export const COMPANY_NAME = 'Ehret Trucking Company';

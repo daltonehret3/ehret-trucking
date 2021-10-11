@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <StyledDiv>
             <div>
-                <h3>Materials Haulded</h3>
+                <h3>Materials Hauled</h3>
                 <p>Gravel</p>
                 <p>Sand</p>
                 <p>Dirt</p>
