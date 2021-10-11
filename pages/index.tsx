@@ -9,17 +9,13 @@ const StyledDiv = styled.div`
     justify-content: center;
 `;
 
-const Home = () => {
-    console.log(truck);
-    
-    return (
-        <StyledDiv>
-            <img 
-                src= {'/_next/static/image/assets/haulingTruck.637192708b8469c5909452d7b0262336.jpg'}
-                height='50%' width='50%'    
-            />
-        </StyledDiv>
-    )
-};
+const Home = () => (
+    <StyledDiv>
+        <img 
+            src= {'/_next/static/image/assets/haulingTruck.637192708b8469c5909452d7b0262336.jpg'}
+            height='50%' width='50%'    
+        />
+    </StyledDiv>
+);
 
 export default Home;

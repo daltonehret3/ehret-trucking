@@ -1,6 +1,6 @@
 import '../styles/globals.css';
 import Layout from '../src/components/Layout';
-import React, { FC } from 'react';
+import React from 'react';
 import { AppProps } from 'next/dist/shared/lib/router/router';
 import { WebsiteComingSoon } from '../src/components/WebsiteComingSoon';
 
